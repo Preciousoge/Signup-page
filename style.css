@@ -1,0 +1,143 @@
+
+
+body{
+
+	height: 50vh;
+
+	background-size: 15% 15% 15% 5%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-origin: content-box, border-box;
+ 	margin: 20px;
+  	display: flex;
+
+ background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-origin: content-box, border-box;
+ 	margin: 20px;
+  	background-position: 
+  	top 10px left 10px,
+  	top 10px right 10px,
+  	bottom 10px left 10px,
+  	bottom 10px right 10px;
+
+
+
+	
+
+	background-color: #ADD8E6;
+	display: flex;
+	flex-flow: row wrap;
+
+
+
+
+}
+
+
+.button{background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight:700;
+  font-size:14px;
+  line-height:21px;
+  border-bottom-right-radius: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.img{
+	margin: 0 auto;
+	width: 500px;
+	padding: 20px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	float: top;
+}
+
+
+.box{
+	display: flex;
+	 
+
+}
+
+.center{
+  	
+
+  color: #4a5568;
+margin: 0 auto;
+  width: 384px;
+  background: white;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom:40px;
+  
+ 
+ border-bottom-right-radius: 25px;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+resize: vertical;
+display: flex;
+align-items: center;
+
+
+
+
+ 
+}
+/*p{
+	line-height: 50px;
+	*/
+}
+.create{
+	color: #083e9e;
+	font-weight: 700px;
+	size: 24px;
+	line-height: 36px;
+	font-family: sans-serif;
+}
+h1{
+	font-weight: 700px;
+	font-size: 24px
+	line-height:36px;
+	color:#083e9e;
+	margin-bottom: -6px;
+}
+#pwd, #rcode, #fname, #phone, #email
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: #b6dff2;
+  font-weight: 400;
+  font-size: 16px;
+line-height: 24px;
+background-color: #cce2f0;
+
+}
+#select{
+	background-color: #cce2f0;
+	width: 100% ;
+	height: 50px;
+	border-radius: 3px;
+	border-style: hidden;
+	font-size: 16px;
+
+	/*padding: 10px;*/
+
+}
+	
