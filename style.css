@@ -4,7 +4,7 @@ body{
 
 	height: 50vh;
 
-	background-size: 15% 15% 15% 5%;
+	background-size: 210px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-origin: content-box, border-box;
@@ -16,16 +16,20 @@ body{
 	background-origin: content-box, border-box;
  	margin: 20px;
   	background-position: 
-  	top 10px left 10px,
-  	top 10px right 10px,
-  	bottom 10px left 10px,
-  	bottom 10px right 10px;
+  	top -50px left -12px,
+  	top 10px right -70px,
+  	bottom -40px left -70px,
+  	bottom -40px right -58px;
 
 
-
+background-image: 
+	url(images/data1.png),
+	url(images/data2.png),
+	url(images/data3.png),
+	url(images/data4.png);
 	
 
-	background-color: #ADD8E6;
+	background-color: #062863;
 	display: flex;
 	flex-flow: row wrap;
 
@@ -51,6 +55,9 @@ body{
   border-bottom-right-radius: 10px;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
+width: 100%;
+
+
 }
 
 .img{
@@ -59,21 +66,21 @@ border-top-right-radius: 10px;
 	padding: 20px;
 	color: white;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: center;
+	
 	align-items: center;
 	float: top;
 }
 
 
-.box{
+.form-box{
 	display: flex;
 	 
 
 }
 
-.center{
+.form-wrap{
   	
 
   color: #4a5568;
@@ -93,15 +100,9 @@ resize: vertical;
 display: flex;
 align-items: center;
 
-
-
-
- 
 }
-/*p{
-	line-height: 50px;
-	*/
-}
+
+
 .create{
 	color: #083e9e;
 	font-weight: 700px;
@@ -109,6 +110,8 @@ align-items: center;
 	line-height: 36px;
 	font-family: sans-serif;
 }
+
+
 h1{
 	font-weight: 700px;
 	font-size: 24px
@@ -116,6 +119,8 @@ h1{
 	color:#083e9e;
 	margin-bottom: -6px;
 }
+
+
 #pwd, #rcode, #fname, #phone, #email
 {
   width: 100%;
@@ -126,18 +131,29 @@ h1{
   font-weight: 400;
   font-size: 16px;
 line-height: 24px;
-background-color: #cce2f0;
+background-color: #edf2f7;
+border-radius: 3px;
+border-style: hidden;
 
 }
+
+
 #select{
-	background-color: #cce2f0;
+	background-color: #edf2f7;
 	width: 100% ;
 	height: 50px;
 	border-radius: 3px;
 	border-style: hidden;
 	font-size: 16px;
+	box-sizing: border-box;
 
 	/*padding: 10px;*/
 
+}
+#login{
+	color: white;
+width: 100px;
+  height: 100px;
+  margin: 0 auto;
 }
 	
